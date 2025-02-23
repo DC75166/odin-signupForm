@@ -5,29 +5,51 @@
     border : none;
     background:none ;
     outline:none;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 .container{
     display: flex;
-    flex-direction: row;
     height: 100vh;
     width : 100vw;
     overflow: hidden;
 }
 #img {
-    width: 40%;
+    width: 30%;
     height: 100%;
+    position:relative;
 }
 .green_leaf{
-    width:40%;
+    width:100%;
     height:100%;
     overflow:hidden;
     position: absolute;
+    object-fit: cover;
 }
 .odinLogo{
-    position: relative;
-    width: 10vh;
-    margin: 120px;
+    width: 12vh;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.logoheading{
+    font-size:xx-large;
+    color:azure;
+    padding:20px;
+}
+.footer{
+    position: absolute;
+    
 }
 #form{
     display: flex;
