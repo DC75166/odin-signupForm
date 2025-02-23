@@ -18,10 +18,16 @@
     width: 40%;
     height: 100%;
 }
-img{
-    width:100%;
+.green_leaf{
+    width:40%;
     height:100%;
     overflow:hidden;
+    position: absolute;
+}
+.odinLogo{
+    position: relative;
+    width: 10vh;
+    margin: 120px;
 }
 #form{
     display: flex;
@@ -74,13 +80,13 @@ input{
     background-color: #596D48;
     color: white;
 }
-/* #password:invalid{
+#password:invalid{
     border:1px solid red;
-} */
-#confirm_pass:invalid{
+}
+#confirmPass:invalid{
     border:1px solid red;
 }
 input:focus{
     border:1px solid blue;
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);;
 }
