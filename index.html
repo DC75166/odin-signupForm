@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="img">
+            <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Green leaf" class="green_leaf">
+        </div>
+        <div id="form">
+            <form action="index.html" method="post">
+                <fieldset>
+                    <h4>Lets Do this!</h4>
+                    <div class="name">
+                        <p class="left">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="Daipayan" required
+                                minlength="2" />
+                        </p>
+                        <p class="right">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Chakraborty" required
+                                minlength="2" />
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <p class="left">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="abc@xyz.com" required />
+                        </p>
+                        <p class="right">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" placeholder="+00-1234567890" required />
+                        </p>
+                    </div>
+                    <div class="pass">
+                        <p class="left">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Type Password" required />
+                        </p>
+                        <p class="right">
+                            <label for="confirm_pass">Confirm Password</label>
+                            <input type="password" name="confirm_pass" id="confirm_pass" placeholder="Retype Password"
+                                required />
+                        </p>
+                    </div>
+                </fieldset>
+                <div class="submit-login">
+                    <input type="submit" value="Create Account" class="submit">
+                    <p class="login">Aleady Have an account? Log in</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
