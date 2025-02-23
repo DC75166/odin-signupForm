@@ -69,11 +69,12 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;    
+    width: 100%;    
 }
 form{
     width: 100%;
     box-sizing: border-box;
+    margin-top:20px;
 }
 fieldset{
     padding: 30px;
@@ -86,12 +87,18 @@ fieldset{
     padding: 20px 30px;
 }
 .login{
-    margin-top:10px;
+    margin-top:15px;
+    font-size: 10px;
 }
-h4{
+.loginlink{
+    color:#596D48;
+    text-decoration: none;
+}
+.formheading{
     padding-bottom:10px;
     margin-top:-10px;
 }
+
 label,input{
     display : flex;
     flex-direction: column;
@@ -113,6 +120,7 @@ input{
     padding-right: 30px;
     background-color: #596D48;
     color: white;
+    font-size: 10px;
 }
 #password:invalid{
     border:1px solid red;
