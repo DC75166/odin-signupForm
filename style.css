@@ -11,9 +11,14 @@
     width : 100vw;
     overflow: hidden;
 }
-img {
-    width: 40vw;
+#img {
+    width: 40%;
     height: 100%;
+}
+img{
+    width:100%;
+    height:100%;
+    overflow:hidden;
 }
 #form{
     display: flex;
@@ -21,7 +26,6 @@ img {
     justify-content: center;
     align-items: center;
     width: 60vw;
-    flex-wrap: wrap;
     
 }
 form{
@@ -32,6 +36,8 @@ fieldset{
     padding: 30px;
     border: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+
 }
 .submit-login{
     padding: 20px 30px;
@@ -47,7 +53,6 @@ label,input{
     display : flex;
     flex-direction: column;
     padding: 5px;
-    flex-wrap: wrap;
 }
 .name,.contact,.pass{
     display: flex;
@@ -65,4 +70,10 @@ input{
     padding-right: 30px;
     background-color: #596D48;
     color: white;
+}
+/* #password:invalid{
+    border:1px solid red;
+} */
+input:focus{
+    border: 1px solid red;
 }
