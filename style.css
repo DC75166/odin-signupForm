@@ -102,7 +102,7 @@ fieldset{
 label,input{
     display : flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 3px;
 }
 .name,.contact,.pass{
     display: flex;
@@ -116,8 +116,7 @@ input{
     border : 1px solid #E5E7EB;
 }
 .submit{
-    padding-left:30px;
-    padding-right: 30px;
+    padding:10px 30px;
     background-color: #596D48;
     color: white;
     font-size: 10px;
